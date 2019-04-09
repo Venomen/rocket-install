@@ -40,7 +40,7 @@ echo ""
 cd $INSTALL_DIR
 rm $INSTALL_DIR/rocket.*
 rm $INSTALL_DIR/0.* -Rf
-wget https://github.com/RocketChat/Rocket.Chat/archive/$rcversion.tar.gz
+wget https://cdn-download.rocket.chat/build/rocket.chat-$rcversion.tgz
 mkdir -p $INSTALL_DIR/$rcversion
 tar xvpf rocket.chat-$rcversion.tgz -C $rcversion/
 
